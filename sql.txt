@@ -1,0 +1,7 @@
+id primary
+Keresztnev VARCHAR[50]
+Vezeteknev VARCHAR[50]
+neme ENUM['m','f','o']
+email VARCHAR[50]
+password VARCHAR[20]
+number VARCHAR[10]

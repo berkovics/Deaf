@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regisztrálj</title>
+    <link rel="shortcut icon" href="../../image/images.png" type="image/x-icon">
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <!--Berkovics Gellért-->
+    <div class="container">
+        <div class="row col-md-6 col-md-offset-3">
+            <div class="panel panel-primary">
+                <div class="panel-heading text-center">
+                    <h1>Regisztrálj</h1>
+                </div>
+                <div class="panel-body">
+                    <form action="connect.php" method="POST">
+                        <div class="form-group">
+                            <label for="Keresztnev">Keresztnév</label><br>
+                            <input type="text" class="form-control" id="Keresztnev" name="Keresztnev"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="Vezeteknev">Vezetéknév</label><br>
+                            <input type="text" class="form-control" id="Vezeteknev" name="Vezeteknev"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Neme</label>
+                            <div>
+                                <label for="male" class="radio-inline">&nbsp;&nbsp;
+                                    <input type="radio" name="neme" value="m" id="male">&nbsp; Férfi
+                                </label>
+                                <label for="female" class="radio-inline">&nbsp;&nbsp;
+                                    <input type="radio" name="neme" value="f" id="female">&nbsp; Nő
+                                </label>
+                                <label for="others" class="radio-inline">&nbsp;&nbsp;
+                                    <input type="radio" name="neme" value="o" id="others">&nbsp; Mások
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label><br>
+                            <input type="text" class="form-control" id="email" name="email"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Jelszó</label><br>
+                            <input type="password" class="form-control" id="password" name="password">
+                        </div>
+                        <div class="form-group">
+                            <label for="number">Telefonszám</label><br>
+                            <input type="number" class="form-control" id="number" name="number">
+                        </div>
+                        <input type="submit" class="btn btn-primary"/>
+                    </form>
+                </div>
+                <div class="panel-footer text-right">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

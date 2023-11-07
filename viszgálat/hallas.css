@@ -1,0 +1,128 @@
+/*Berkovics Gellért*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}    
+
+body{
+    background-image: linear-gradient(to right, blue, red);
+}
+
+#header{
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#container{
+    max-width: 1300px;
+    width:95%;
+    margin:0 auto;
+    background-color: white;
+}
+
+.grafika{
+    background-color: white;
+    float: left;
+    padding-left: 50px;
+}
+
+.grafika2{
+    float: left;
+}
+
+form{
+    background-color: white;
+    padding-bottom: 400px;
+    padding-left: 700px;
+    padding-top: 50px;
+}
+
+.no-hear{
+    font-size: 24px;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    background-color: red;
+    color: white;
+    border-radius: 40px;
+}
+
+.no-hear:hover{
+    background-color: dodgerblue;
+}
+
+.hear{
+    font-size: 24px;
+    padding: 10px 56px;
+    margin-bottom: 50px;
+    background-color: green;
+    color: white;
+    border-radius: 40px;
+}
+
+.hear:hover{
+    background-color: dodgerblue;
+}
+
+.ertekeles{
+    font-size: 24px;
+    padding: 10px 45px;
+    margin-bottom: 20px;
+    background-color: aqua;
+    border-radius: 40px;
+}
+
+.ertekeles:hover{
+    background-color: dodgerblue;
+}
+
+.button1{
+    font-size: 24px;
+    padding: 5px 26px;
+    margin-right: 20px;
+    background-color: aqua;
+    border-radius: 40px;
+}
+
+.button1:hover{
+    background-color: dodgerblue;
+}
+
+.button2{
+    font-size: 24px;
+    padding: 5px 26px;
+    background-color: aqua;
+    border-radius: 40px;
+}
+
+.button2:hover{
+    background-color: dodgerblue;
+}
+
+#leftcolor{
+    accent-color: red;
+    width: 15px;
+    height: 15px;
+}
+
+.fontred{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#rightcolor{
+    accent-color: blue;
+    width: 15px;
+    height: 15px;
+}
+
+.fontblue{
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}
