@@ -12,6 +12,5 @@ create Table 'deaf'.'regisztralj'
     'neme' ENUM('m','f','o') NOT NULL,
     'email' VARCHAR(50) NOT NULL,
     'password' VARCHAR(20) NOT NULL,
-    'number' BIGINT(10) NOT NULL,
     PRIMARY KEY (`id`)
 ) ENGINE = InnoDB;

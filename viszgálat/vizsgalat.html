@@ -15,23 +15,34 @@
       <div id="header">
         <h1>Hallás Vizsgálat</h1>
       </div>
-      <canvas id="c2" width="20" height="500" class="grafika"></canvas>
-      <canvas id="c1" width="500" height="500" class="grafika2"></canvas>
-      <form action="">
-        <label for="leftcolor" class="fontred radio-inline">
-          <input type="radio" id="leftcolor" name="radio" value="Bal" onchange="redColor()">&nbsp; Bal
-        </label>
-        <br />
-        <label for="rightcolor" class="fontblue radio-inline">
-          <input type="radio" id="rightcolor" name="radio" value="Jobb" onchange="blueColor()">&nbsp; Jobb
-        </label>
-        <br />
-        <input type="button" value="Nem hallom" class="no-hear" onclick="nohear()"><br />
-        <input type="button" value="Hallom" class="hear" onclick="hear()"><br />
-        <input type="button" value="Értékelés" class="ertekeles" onclick="ertekeles()"><br />
-        <input type="button" value="<<" class="button1" onclick="balbutton()">
-        <input type="button" value=">>" class="button2" oncanplay="jobbbutton()">
-      </form>
+
+      <div class="range">
+        <input type="range" value="0" min="0" max="10000" class="sliderRed" id="rangeChechedRed"><br />
+        <input type="range" value="0" min="0" max="10000" class="sliderBlue" id="rangeChechedBlue">
+      </div>
+
+      <div class="button">
+        <form action="">
+          <label for="leftcolor" class="fontred radio-inline">
+            <input type="radio" id="leftcolor" name="radio" value="Bal" onchange="redColor()">&nbsp; Bal
+          </label>
+          <br />
+          <label for="rightcolor" class="fontblue radio-inline">
+            <input type="radio" id="rightcolor" name="radio" value="Jobb" onchange="blueColor()">&nbsp; Jobb
+          </label>
+          <br /><br />
+          <button type="button" class="hear" onclick="hear()">Hallom</button><br />
+          <button type="button" class="no-hear" onclick="nohear()">Nem hallom</button><br />
+          <button type="button" class="ertekeles" onclick="ertekeles()">Értékelés</button><br />
+        </form>
+
+        <div class="rengaValue">
+          <span id="rangeBlueValue">0 Hz</span>
+          <span id="blueValue"></span><br />
+          <span id="rangeRedValue">0 Hz</span>
+          <span id="redValue"></span>
+        </div>
+      </div>
     </div>
   </body>
 </html>
