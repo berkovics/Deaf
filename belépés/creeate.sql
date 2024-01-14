@@ -9,7 +9,7 @@ create Table 'deaf'.'regisztralj'
 ('id' INT NOT NULL,
     'Keresztnev' VARCHAR(50) NOT NULL,
     'Vezeteknev' VARCHAR(50) NOT NULL,
-    'neme' ENUM('m','f','o') NOT NULL,
+    'neme' VARCHAR(10) NOT NULL,
     'email' VARCHAR(50) NOT NULL,
     'password' VARCHAR(20) NOT NULL,
     PRIMARY KEY (`id`)
