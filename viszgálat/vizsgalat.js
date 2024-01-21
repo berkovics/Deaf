@@ -6,7 +6,7 @@ var r2;
 var b2;
 
 function startRed() {
-  if (0<=r && r<10000) {
+  if (0<=r && r<20000) {
     if (0<=r && r<4000) {
       r++;
       document.getElementById("redValue").innerHTML = "Kicsi hallom";
@@ -15,7 +15,7 @@ function startRed() {
       r++;
       document.getElementById("redValue").innerHTML = "Közepes hallom";
     }
-    if (7000<=r && r<10000) {
+    if (7000<=r && r<20000) {
       r++;
       document.getElementById("redValue").innerHTML = "Nagyon hallom";
     }
@@ -26,16 +26,16 @@ function startRed() {
 }
 
 function startBlue() {
-  if (0<=b && b<10000) {
+  if (0<=b && b<20000) {
     if (0<=b && b<4000) {
       b++;
-      document.getElementById("blueValue").innerHTML = "Kicsi hallom";
+      
     }
     if (4000<=b && b<7000) {
       b++;
       document.getElementById("blueValue").innerHTML = "Közepes hallom";
     }
-    if (7000<=b && b<10000) {
+    if (7000<=b && b<20000) {
       b++;
       document.getElementById("blueValue").innerHTML = "Nagyon hallom";
     }

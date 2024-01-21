@@ -51,3 +51,66 @@ body{
     background-color: green;
 }
 
+.container{
+    max-width: 1700px;
+    width:93%;
+    margin:0 auto;
+}
+
+.deaf1{
+    width: 100px;
+    float: right;
+    border-radius: 100%;
+    padding-top: 100px;
+}
+
+.deaf2{
+    width: 100px;
+    padding-top: 100px;
+    height: 100px;
+}
+
+.deaf3{
+    width: 100px;
+    padding-left: 500px;
+    padding-top: 60px;
+    height: 100px;
+}
+
+.deaf4{
+    width: 100px;
+    padding-left: 1000px;
+    padding-top: 100px;
+
+}
+
+.deaf5{
+    width: 100px;
+    padding-left: 1100px;
+    padding-top: 50px;
+    height: 30px;
+}
+
+.deaf6{
+    width: 100px;
+    height: 90px;
+}
+
+.deaf7{
+    width: 100px;
+    padding-left: 500px;
+}
+
+#deaf{
+    border: 5px solid black;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+#deaf1{
+    border-radius: 50%;
+}
+
+#deaf3{
+    border-radius: 50%;
+}
